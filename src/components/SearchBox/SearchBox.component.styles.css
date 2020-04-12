@@ -1,0 +1,15 @@
+.search-box {
+    width: 24rem;
+    margin: 30px auto;
+}
+
+.search-box input {
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    width: 100%;
+    -webkit-appearance: none;
+    outline: none;
+    padding: 10px;
+    line-height: 30px;
+    text-align: center;
+}

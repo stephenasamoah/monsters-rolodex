@@ -5,7 +5,7 @@ import Card from "../card/Card.component";
 const CardList = (props) => {
     return (
         <div className={ 'card-list' }>
-            { props.people.map((person) => (<Card key={ person.id } person={ person }/>)) }
+            { props.people.map((person) => <Card key={ person.id } person={ person }/>) }
         </div>
     );
 };
